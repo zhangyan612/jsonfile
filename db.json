@@ -1,0 +1,419 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "label": "Title",
+      "id": 0
+    },
+    {
+      "type": "input",
+      "label": "Text",
+      "inputType": "text",
+      "name": "text",
+      "placeholder": "",
+      "validations": [],
+      "id": 1
+    },
+    {
+      "type": "input",
+      "label": "Line item",
+      "inputType": "number",
+      "name": "line",
+      "placeholder": "",
+      "validations": [],
+      "id": 2
+    },
+    {
+      "type": "input",
+      "label": "Required Text field",
+      "inputType": "text",
+      "name": "RequiredText",
+      "placeholder": "Required",
+      "validations": [
+        {
+          "name": "required",
+          "message": "Text is Required"
+        },
+        {
+          "name": "pattern",
+          "message": "Accept only text"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "type": "input",
+      "label": "Email Address",
+      "inputType": "email",
+      "name": "email",
+      "placeholder": "Email Address",
+      "validations": [
+        {
+          "name": "required",
+          "message": "Email Required"
+        },
+        {
+          "name": "pattern",
+          "message": "Invalid email"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "type": "input",
+      "label": "Password",
+      "inputType": "password",
+      "name": "password",
+      "placeholder": "Enter Password",
+      "validations": [
+        {
+          "name": "required",
+          "message": "Password Required"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "type": "radiobutton",
+      "label": "Form of organization",
+      "name": "radio",
+      "options": [
+        "Corporation",
+        "Trust",
+        "Association",
+        "Other"
+      ],
+      "value": "Corporation",
+      "id": 6
+    },
+    {
+      "type": "date",
+      "label": "Start Date",
+      "name": "date",
+      "placeholder": "Select date",
+      "validations": [
+        {
+          "name": "required",
+          "message": "Date is Required"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "type": "select",
+      "label": "State",
+      "name": "select",
+      "value": "IL",
+      "options": [
+        "IL",
+        "OH",
+        "AL",
+        "CA"
+      ],
+      "id": 8
+    },
+    {
+      "type": "checkbox",
+      "label": "Self-employed?",
+      "name": "checkbox",
+      "value": true,
+      "id": 9
+    },
+    {
+      "type": "button",
+      "label": "Save",
+      "id": 10
+    }
+  ],
+  "forms": [
+    {
+      "formName": "Test Form",
+      "formPath": "test",
+      "fields": [
+        {
+          "type": "text",
+          "label": "Test Form",
+          "id": 0,
+          "name": null
+        },
+        {
+          "type": "input",
+          "label": "Form Of Organization",
+          "inputType": "text",
+          "name": "text3",
+          "placeholder": "",
+          "validations": [],
+          "id": 1
+        },
+        {
+          "type": "input",
+          "label": "Line 1",
+          "inputType": "number",
+          "name": "line4",
+          "placeholder": "",
+          "validations": [],
+          "id": 2
+        },
+        {
+          "type": "input",
+          "label": "Line 2",
+          "inputType": "number",
+          "name": "line5",
+          "placeholder": "",
+          "validations": [],
+          "id": 2
+        },
+        {
+          "type": "input",
+          "label": "Line 3",
+          "inputType": "number",
+          "name": "line6",
+          "placeholder": "",
+          "validations": [],
+          "id": 2
+        },
+        {
+          "type": "date",
+          "label": "Start Date",
+          "name": "date7",
+          "placeholder": "Select date",
+          "validations": [
+            {
+              "name": "required",
+              "message": "Date is Required"
+            }
+          ],
+          "id": 7
+        },
+        {
+          "type": "date",
+          "label": "End Date",
+          "name": "date8",
+          "placeholder": "Select date",
+          "validations": [
+            {
+              "name": "required",
+              "message": "Date is Required"
+            }
+          ],
+          "id": 7
+        },
+        {
+          "type": "select",
+          "label": "State",
+          "name": "select9",
+          "value": "IL",
+          "options": [
+            "IL",
+            "OH",
+            "AL",
+            "CA"
+          ],
+          "id": 8
+        },
+        {
+          "type": "checkbox",
+          "label": "Self-employed?",
+          "name": "checkbox10",
+          "value": true,
+          "id": 9
+        },
+        {
+          "type": "radiobutton",
+          "label": "Form of organization",
+          "name": "radio11",
+          "options": [
+            "Corporation",
+            "Trust",
+            "Association",
+            "Other"
+          ],
+          "value": "Corporation",
+          "id": 6
+        },
+        {
+          "type": "button",
+          "label": "Save",
+          "id": 10,
+          "name": null
+        }
+      ],
+      "id": 0
+    },
+    {
+      "formName": "Test Form 2",
+      "formPath": "test2",
+      "fields": [
+        {
+          "type": "text",
+          "label": "Another Tax Form",
+          "id": 0,
+          "name": null
+        },
+        {
+          "type": "input",
+          "label": "Organization Name",
+          "inputType": "text",
+          "name": "text3",
+          "placeholder": "",
+          "validations": [],
+          "id": 1
+        },
+        {
+          "type": "input",
+          "label": "Line 1",
+          "inputType": "number",
+          "name": "line4",
+          "placeholder": "",
+          "validations": [],
+          "id": 2
+        },
+        {
+          "type": "input",
+          "label": "Line 2",
+          "inputType": "number",
+          "name": "line5",
+          "placeholder": "",
+          "validations": [],
+          "id": 2
+        },
+        {
+          "type": "date",
+          "label": "Start Date",
+          "name": "date6",
+          "placeholder": "Select date",
+          "validations": [
+            {
+              "name": "required",
+              "message": "Date is Required"
+            }
+          ],
+          "id": 7
+        },
+        {
+          "type": "select",
+          "label": "State",
+          "name": "select7",
+          "value": "IL",
+          "options": [
+            "IL",
+            "OH",
+            "AL",
+            "CA"
+          ],
+          "id": 8
+        },
+        {
+          "type": "checkbox",
+          "label": "Self-employed?",
+          "name": "checkbox8",
+          "value": true,
+          "id": 9
+        },
+        {
+          "type": "button",
+          "label": "Save",
+          "id": 10,
+          "name": null
+        }
+      ],
+      "id": 1
+    },
+    {
+      "formName": "Another Tax Form",
+      "formPath": "test3",
+      "fields": [
+        {
+          "type": "text",
+          "label": "Another tax form",
+          "id": 0,
+          "name": null
+        },
+        {
+          "type": "input",
+          "label": "Name",
+          "inputType": "text",
+          "name": "text3",
+          "placeholder": "",
+          "validations": [],
+          "id": 1
+        },
+        {
+          "type": "input",
+          "label": "Line 1",
+          "inputType": "number",
+          "name": "line4",
+          "placeholder": "",
+          "validations": [],
+          "id": 2
+        },
+        {
+          "type": "input",
+          "label": "Line 2",
+          "inputType": "number",
+          "name": "line5",
+          "placeholder": "",
+          "validations": [],
+          "id": 2
+        },
+        {
+          "type": "radiobutton",
+          "label": "This is the test",
+          "name": "radio6",
+          "options": [
+            "Corporation",
+            "Trust",
+            "Association",
+            "Other"
+          ],
+          "value": "Corporation",
+          "id": 6
+        },
+        {
+          "type": "radiobutton",
+          "label": "Another radio button",
+          "name": "radio7",
+          "options": [
+            "Corporation",
+            "Trust",
+            "Association",
+            "Other"
+          ],
+          "value": "Corporation",
+          "id": 6
+        },
+        {
+          "type": "checkbox",
+          "label": "Self-employed?",
+          "name": "checkbox8",
+          "value": true,
+          "id": 9
+        },
+        {
+          "type": "button",
+          "label": "Save",
+          "id": 10,
+          "name": null
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "sideBar": [
+    {
+      "name": "Test Form",
+      "url": "test",
+      "id": 0
+    },
+    {
+      "name": "Test Form 2",
+      "url": "test2",
+      "id": 1
+    },
+    {
+      "name": "Another Tax Form",
+      "url": "test3",
+      "id": 2
+    }
+  ]
+}
